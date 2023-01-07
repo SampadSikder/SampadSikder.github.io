@@ -1,0 +1,80 @@
+.container {
+    padding-left: 50px;
+    width: 100%;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    background-color: #5161ce;
+    flex: 0.5;
+}
+
+.navbar li {
+    float: left;
+    padding: 5px;
+}
+
+.navbar li a.active {
+    background-color: blanchedalmond;
+    color: blue;
+}
+
+.navbar li a {
+    border-radius: 80px;
+    border: 1px solid;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    background-color: transparent;
+    color: honeydew;
+    text-decoration: none;
+    font-family: 'Muli', sans-serif;
+    /*removes underline*/
+    /* color: rgba(255, 255, 255, 0.5); */
+}
+
+.navbar li a:hover {
+    background-color: blanchedalmond;
+    color: blue;
+}
+
+.navbar .contact {
+    position: relative;
+    float: right;
+    right: 20px;
+}
+
+.container h1 {
+    width: 20%;
+}
+
+.container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+}
+
+.container ul li {
+    margin: 50px;
+}
+
+.container ul a {
+    border-radius: 80px;
+    border: 1px solid;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(119, 105, 241);
+    color: white;
+    text-decoration: none;
+    font-family: 'Muli', sans-serif;
+}

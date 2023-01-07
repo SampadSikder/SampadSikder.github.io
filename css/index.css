@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+body {
+    background-color: azure;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.container {
+    animation: transitionIn 1s;
+    width: 100%;
+    overflow: scroll;
+    font-family: 'Muli', cursive;
+    font-size: 30px;
+    line-height: 120%;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: auto;
+    width: 100%;
+    background-color: #5161ce;
+}
+
+.navbar li {
+    float: left;
+    padding: 5px;
+}
+
+.navbar li a.active {
+    background-color: blanchedalmond;
+    color: blue;
+}
+
+.navbar li a {
+    border-radius: 80px;
+    border: 1px solid;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    background-color: transparent;
+    color: honeydew;
+    text-decoration: none;
+    font-family: 'Muli', sans-serif;
+    /*removes underline*/
+    /* color: rgba(255, 255, 255, 0.5); */
+}
+
+.navbar li a:hover {
+    background-color: blanchedalmond;
+    color: blue;
+}
+
+.navbar .contact {
+    position: relative;
+    float: right;
+    right: 20px;
+}
+
+.image {
+    position: relative;
+    float: left;
+    padding-left: 200px;
+    width: 25%;
+    padding-top: 30px;
+
+}
+
+.image img {
+    width: 350px;
+    height: 400px;
+    background-position: center;
+    border: 1px solid;
+}
+
+.portfolio {
+    padding-top: 30px;
+    width: 55%;
+    margin-left: 100px;
+    margin-top: 30px;
+    float: left;
+    color: rgb(26, 25, 25);
+}
+
+.portfolio .text {
+    text-align: center;
+}
+
+.portfolio .list {
+    text-align: justify;
+    border-left: 0px;
+    list-style-type: none;
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #5161ce;
+    color: white;
+    text-align: center;
+    font-size: small;
+}

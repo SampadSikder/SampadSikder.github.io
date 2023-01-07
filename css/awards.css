@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+
+.mainpage {
+    animation: transitionIn 1s;
+    width: 100%;
+    font-family: 'Muli', cursive;
+    font-size: 20px;
+}
+
+.mainpage .achievements {
+    width: 42%;
+    font-size: 25px;
+    float: left;
+    color: rgb(26, 25, 25);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.mainpage .achievement-img {
+    float: left;
+    width: 50%;
+    height: 700px;
+}
+
+
+
+.carousel {
+    width: 550px;
+    height: 420px;
+    margin-left: 50%;
+    margin-right: auto;
+}
