@@ -5,7 +5,7 @@ body {
     background-image: url('background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0;
+
 }
 
 .container {
@@ -87,6 +87,7 @@ body {
     height: 400px;
     background-position: center;
     border: 1px solid;
+    border-radius: 80px;
 }
 
 .portfolio {
@@ -103,7 +104,6 @@ body {
 }
 
 .portfolio .list {
-    text-align: justify;
     border-left: 0px;
     list-style-type: none;
 }
@@ -113,6 +113,7 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
+    opacity: 0.7;
     background-color: #5161ce;
     color: white;
     text-align: center;
