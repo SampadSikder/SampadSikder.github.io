@@ -23,11 +23,14 @@
     height: 700px;
 }
 
+.mainpage .achievements li:hover {
+    background-color: rgb(173, 173, 162);
+}
 
 
 .carousel {
     width: 550px;
     height: 420px;
     margin-left: 35%;
-    padding-right: 9%;
+    padding-right: 10%;
 }

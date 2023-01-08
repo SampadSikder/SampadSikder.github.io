@@ -1,8 +1,8 @@
 .container {
     padding-left: 50px;
     width: 100%;
-    font-family: 'Brush Script MT', cursive;
-    font-size: 20px;
+    font-family: 'Muli', sans-serif;
+    font-size: 5px;
     text-align: center;
 }
 
@@ -76,5 +76,5 @@
     background-color: rgb(119, 105, 241);
     color: white;
     text-decoration: none;
-    font-family: 'Muli', sans-serif;
+
 }

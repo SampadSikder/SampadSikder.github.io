@@ -5,7 +5,7 @@ body {
     background-image: url('background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-
+    margin: 0;
 }
 
 .container {
@@ -13,7 +13,7 @@ body {
     width: 100%;
     overflow: scroll;
     font-family: 'Muli', cursive;
-    font-size: 30px;
+    font-size: medium;
     line-height: 120%;
 }
 
@@ -73,41 +73,24 @@ body {
     right: 20px;
 }
 
-.image {
-    position: relative;
-    float: left;
-    padding-left: 200px;
-    width: 25%;
-    padding-top: 30px;
-
-}
-
-.image img {
-    width: 350px;
-    height: 400px;
-    background-position: center;
-    border: 1px solid;
-    border-radius: 80px;
-}
-
-.portfolio {
-    padding-top: 30px;
-    width: 45%;
-    margin-left: 100px;
-    margin-top: 30px;
-    float: left;
-    color: rgb(26, 25, 25);
-}
-
-.portfolio .text {
+.text {
+    padding: 50px;
     text-align: center;
 }
 
-.portfolio .list {
-    border-left: 0px;
-    list-style-type: none;
+.text:hover {
+    background-color: azure;
 }
 
+
+
+.container .row .list:hover {
+    box-shadow: inset 0 0 0 0 #17191a;
+    color: #54b3d6;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
 
 .footer {
     position: fixed;
